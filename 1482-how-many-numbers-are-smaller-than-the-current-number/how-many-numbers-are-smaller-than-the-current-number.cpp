@@ -16,7 +16,6 @@ public:
   for (int i = 0; i < nums.size(); i++) {
     int temp = myMap[unsorted[i]][0];
     result.push_back(temp);
-    myMap[nums[i]][1]--;
   }
   return result;
 }
